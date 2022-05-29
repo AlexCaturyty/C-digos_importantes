@@ -1,0 +1,15 @@
+{
+
+	funcao inicio()
+	{
+	inteiro fat = 1
+	inteiro i
+	escreva ("Digite um número para descobrir seu fatorial: ")
+	leia(i)
+		para( i;i>=1;i--){
+		
+		fat = fat * i
+			escreva(fat, "\n")
+		}
+	}
+}
